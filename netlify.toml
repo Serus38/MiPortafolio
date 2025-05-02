@@ -1,0 +1,10 @@
+[build]
+    publish = "src" # Cambia "dist" por la carpeta donde se genera tu proyecto
+    command = "" # Cambia esto por el comando para construir tu proyecto
+
+[dev]
+    framework = "static" # Detecta automáticamente el framework
+
+[functions]
+    directory = "netlify/functions" # Carpeta para funciones serverless (opcional)
+  
