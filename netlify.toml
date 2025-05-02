@@ -1,10 +1,9 @@
 [build]
-    publish = "src" # Cambia "dist" por la carpeta donde se genera tu proyecto
-    command = "" # Cambia esto por el comando para construir tu proyecto
+    publish = "portafolio/src" # La carpeta donde está tu index.html
+    command = "" # No necesitas comando de construcción para un sitio estático
 
 [dev]
-    framework = "static" # Detecta automáticamente el framework
+    framework = "static" # Indica que es un sitio estático
 
 [functions]
     directory = "netlify/functions" # Carpeta para funciones serverless (opcional)
-  
